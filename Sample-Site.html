@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sample Site</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="sample.css" />
+<style>
+
+</style>
+
+<script>
+function headerButtonClick() {
+  document.getElementById("header").innerHTML = "Header changed.";
+}
+</script>
+<script src="samplescript.js"></script>
+
+</head>
+<body>
+<div class="Page">
+<header>
+  <h2 id='header'>Header</h2>
+  <!-- <button type="button" onclick="headerButtonClick()">Change Text</button> -->
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#" class='active'>London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+ 
+</section>
+
+<footer>
+  <p id="footer">Footer</p>
+  <!-- <button type="button" onclick="footerButtonClick()">Change Text</button> -->
+</footer>
+</div> 
+</body>
+</html>
