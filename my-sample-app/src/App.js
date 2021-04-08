@@ -7,7 +7,7 @@ import Footer from './components/footer';
 class App extends React.Component {
   render(){
     return (
-      <div class="Page">    
+      <div className="Page">    
       	<Header />
         <Section />
         <Footer />

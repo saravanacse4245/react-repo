@@ -19,9 +19,9 @@ class Section extends React.PureComponent {
         <section>
             <nav>
                 <ul>
-                    <li><a href='#' className={this.state.menuPage == 1 ? 'active' : ' '} onClick={() => {this.menuChange(1)}}>London</a></li>
-                    <li><a href="#" className={this.state.menuPage == 2 ? 'active' : ' '} onClick={() => {this.menuChange(2)}}>Paris</a></li>
-                    <li><a href="#" className={this.state.menuPage == 3 ? 'active' : ' '} onClick={() => {this.menuChange(3)}}>Tokyo</a></li>
+                    <li><a href='#' className={this.state.menuPage === 1 ? 'active' : ' '} onClick={() => {this.menuChange(1)}}>London</a></li>
+                    <li><a href="#" className={this.state.menuPage === 2 ? 'active' : ' '} onClick={() => {this.menuChange(2)}}>Paris</a></li>
+                    <li><a href="#" className={this.state.menuPage === 3 ? 'active' : ' '} onClick={() => {this.menuChange(3)}}>Tokyo</a></li>
                 </ul>
             </nav>
    

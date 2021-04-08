@@ -5,9 +5,6 @@ import ParisPage from './paris';
 import TokyoPage from './tokiyo';
 
 class PageContainer extends React.PureComponent {
-    constructor(props) {
-        super(props);
-    }
 
     loadPage(menuPage){
         switch (menuPage) {
