@@ -59,7 +59,7 @@ class Section extends React.Component {
                                     <NavLink  to='/home' activeClassName="active">Home</NavLink >
                                 </li>
                                 <li>
-                                    <NavLink  to='/topics'  activeClassName="active">Topics</NavLink >
+                                    <NavLink  to='/topic'  activeClassName="active">Routing</NavLink >
                                 </li>
                                 <li>
                                     <NavLink  to='/languages'  activeClassName="active">Languages</NavLink >
@@ -82,7 +82,7 @@ class Section extends React.Component {
                                         (colorch === 2 ? 'bg-color-blue' : 
                                         (colorch === 3 ? 'bg-color-green' : '' ))}>
                             <Route exact path='/home'  component={HomePage} />
-                            <Route path='/topics'  component={TopicPage} />
+                            <Route path='/topic'  component={TopicPage} />
                             <Route path='/languages'  component={Languagepage} />
                             <Route path='/register'  component={registerpage} />
                             <Route path='/form'  component={signuppage} />

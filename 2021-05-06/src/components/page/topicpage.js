@@ -6,7 +6,7 @@ import data from './data.json';
 
 const TopicPage = ({ match }) => (
   <div> 
-    This is a topics
+    Nested Routing
     <div>
     {data.map((item, id) => 
       <div key={id}>
